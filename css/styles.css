@@ -728,7 +728,7 @@ body {
 	margin-top: 4px;
 	width: 360px;
 	height: 120px;
-	padding: 0 0 0 16px;
+	padding: 0 0 0 12px;
 	outline: transparent;
 	opacity: 0.2;
 	border: 1px solid var(--main-color);
@@ -743,6 +743,7 @@ body {
 	border: 1px solid var(--blue-first-color);
 }
 .form-textarea::placeholder {
+	padding-left: 4px;
 	height: 14px;
 	font-size: 12px;
 	line-height: 1.17;
